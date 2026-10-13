@@ -1,0 +1,42 @@
+{
+  "300x200": {
+    "ALS": {
+      "n_iters": 50,
+      "seconds_per_iter": 0.08767419995274395,
+      "final_rel_obj": 0.0017165654875634984,
+      "total_seconds": 3.406745900050737
+    },
+    "softImpute-ALS": {
+      "n_iters": 200,
+      "seconds_per_iter": 0.019586500013247132,
+      "final_rel_obj": 0.0005527722424654322,
+      "total_seconds": 3.8899755999445915
+    },
+    "softImpute": {
+      "n_iters": 50,
+      "seconds_per_iter": 0.0471168999793008,
+      "final_rel_obj": 0.0023910725871581304,
+      "total_seconds": 2.370568500016816
+    }
+  },
+  "800x600": {
+    "ALS": {
+      "n_iters": 50,
+      "seconds_per_iter": 0.08655759994871914,
+      "final_rel_obj": 0.001133822139448816,
+      "total_seconds": 4.566481499932706
+    },
+    "softImpute-ALS": {
+      "n_iters": 200,
+      "seconds_per_iter": 0.031836200039833784,
+      "final_rel_obj": 0.0031471326843346085,
+      "total_seconds": 6.633411099901423
+    },
+    "softImpute": {
+      "n_iters": 50,
+      "seconds_per_iter": 0.06568789994344115,
+      "final_rel_obj": 0.00520876698349194,
+      "total_seconds": 3.258250300073996
+    }
+  }
+}
